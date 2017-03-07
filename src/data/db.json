@@ -1,0 +1,528 @@
+{
+    "sliders": {
+        "status": true,
+        "data":[{
+        "id": 1,
+        "title": "slider1",
+        "src": "http://www.test.com/img/s1.jpg"
+    }, {
+        "id": 2,
+        "title": "slider2",
+        "src": "http://www.test.com/img/s2.jpg"
+    }, {
+        "id": 3,
+        "title": "slider3",
+        "src": "http://www.test.com/img/s3.jpg"
+    }, {
+        "id": 4,
+        "title": "slider4",
+        "src": "http://www.test.com/img/s4.jpg"
+    }]},
+    "groups": {
+        "status": true,
+        "data":[{
+        "id": 1,
+        "title": "icon1",
+        "link": "#",
+        "src": "http://www.test.com/img/icon1.png"
+    }, {
+        "id": 2,
+        "title": "icon2",
+        "link": "#",
+        "src": "http://www.test.com/img/icon2.png"
+    }, {
+        "id": 3,
+        "title": "icon3",
+        "link": "#",
+        "src": "http://www.test.com/img/icon3.png"
+    }, {
+        "id": 4,
+        "title": "icon4",
+        "link": "#",
+        "src": "http://www.test.com/img/icon4.png"
+    }, {
+        "id": 5,
+        "title": "icon5",
+        "link": "#",
+        "src": "http://www.test.com/img/icon5.png"
+    }, {
+        "id": 6,
+        "title": "icon6",
+        "link": "#",
+        "src": "http://www.test.com/img/icon6.png"
+    }, {
+        "id": 7,
+        "title": "icon7",
+        "link": "#",
+        "src": "http://www.test.com/img/icon7.png"
+    }, {
+        "id": 8,
+        "title": "icon8",
+        "link": "#",
+        "src": "http://www.test.com/img/icon8.png"
+    }]},
+    "ad": {
+        "status": true,
+        "data":[{
+        "id": 1,
+        "title": "ad1",
+        "link": "#",
+        "src": "http://www.test.com/img/ad1.jpg"
+    }, {
+        "id": 2,
+        "title": "ad2",
+        "link": "#",
+        "src": "http://www.test.com/img/ad2.jpg"
+    }]},
+    "menus":{
+        "status": true,
+        "data": [{
+            "id": 1,
+            "title": "Home",
+            "link": "/home",
+            "src": "http://www.test.com/img/menu1.png"
+        }, {
+            "id": 2,
+            "title": "Cate",
+            "link": "/cate",
+            "src": "http://www.test.com/img/menu2.png"
+        }, {
+            "id": 3,
+            "title": "Discount",
+            "link": "/discount",
+            "src": "http://www.test.com/img/menu3.png"
+        }, {
+            "id": 4,
+            "title": "List",
+            "link": "/list",
+            "src": "http://www.test.com/img/menu4.png"
+        }, {
+            "id": 5,
+            "title": "My",
+            "link": "/my",
+            "src": "http://www.test.com/img/menu5.png"
+        }]
+    },
+    "recommend": {
+        "status": true,
+        "data":[
+            {
+                "id":1,
+                "title": "推荐商品1",
+                "link": "#",
+                "src": "http://www.test.com/img/goods1.jpg",
+                "market_price": 6799.00,
+                "shop_price": 5999.00
+            },
+            {
+                "id":2,
+                "title": "推荐商品2",
+                "link": "#",
+                "src": "http://www.test.com/img/goods2.jpg",
+                "market_price": 6799.00,
+                "shop_price": 5999.00
+            },
+            {
+                "id":3,
+                "title": "推荐商品3",
+                "link": "#",
+                "src": "http://www.test.com/img/goods3.jpg",
+                "market_price": 6799.00,
+                "shop_price": 5999.00
+            },
+            {
+                "id":4,
+                "title": "推荐商品4",
+                "link": "#",
+                "src": "http://www.test.com/img/goods4.jpg",
+                "market_price": 6799.00,
+                "shop_price": 5999.00
+            },
+            {
+                "id":5,
+                "title": "推荐商品5",
+                "link": "#",
+                "src": "http://www.test.com/img/goods5.jpg",
+                "market_price": 6799.00,
+                "shop_price": 5999.00
+            },
+            {
+                "id":6,
+                "title": "推荐商品6",
+                "link": "#",
+                "src": "http://www.test.com/img/goods6.jpg",
+                "market_price": 6799.00,
+                "shop_price": 5999.00
+            },
+            {
+                "id":7,
+                "title": "推荐商品7",
+                "link": "#",
+                "src": "http://www.test.com/img/goods7.jpg",
+                "market_price": 6799.00,
+                "shop_price": 5999.00
+            },
+            {
+                "id":8,
+                "title": "推荐商品8",
+                "link": "#",
+                "src": "http://www.test.com/img/goods8.jpg",
+                "market_price": 6799.00,
+                "shop_price": 5999.00
+            }
+
+        ]
+    },
+    "cates": {
+        "status": true,
+        "data": [
+            {
+                "id":1, 
+                "title": "家电",
+                "src": "http://www.test.com/img/m1.png",
+                "parent_id": 0,
+                "cates": [
+                    {
+                        "id": 4,
+                        "title": "大型家电",
+                        "src": "",
+                        "parent_id": 1,
+                        "cates": [
+                            {
+                                "id": 45,
+                                "title": "电视",
+                                "src": "http://www.test.com/img/m1-s1-1.png",
+                                "parent_id": 4
+                            },
+                            {
+                                "id": 46,
+                                "title": "冰箱",
+                                "src": "http://www.test.com/img/m1-s1-2.png",
+                                "parent_id": 4
+                            },
+                            {
+                                "id": 47,
+                                "title": "空调",
+                                "src": "http://www.test.com/img/m1-s1-3.png",
+                                "parent_id": 4
+                            },
+                            {
+                                "id": 48,
+                                "title": "洗衣机",
+                                "src": "http://www.test.com/img/m1-s1-4.png",
+                                "parent_id": 4
+                            },
+                            {
+                                "id": 49,
+                                "title": "燃气灶",
+                                "src": "http://www.test.com/img/m1-s1-5.png",
+                                "parent_id": 4
+                            }
+                        ]
+                    },
+                    {
+                        "id": 5,
+                        "title": "厨卫电器",
+                        "src": "",
+                        "parent_id": 1,
+                        "cates": [
+                            {
+                                "id": 78,
+                                "title": "电磁炉",
+                                "src": "http://www.test.com/img/m1-s2-1.png",
+                                "parent_id": 5
+                            },
+                            {
+                                "id": 79,
+                                "title": "净水器",
+                                "src": "http://www.test.com/img/m1-s2-2.png",
+                                "parent_id": 5
+                            },
+                            {
+                                "id": 50,
+                                "title": "其他",
+                                "src": "http://www.test.com/img/m1-s2-3.png",
+                                "parent_id": 5
+                            },
+                            {
+                                "id": 78,
+                                "title": "电磁炉",
+                                "src": "http://www.test.com/img/m1-s2-1.png",
+                                "parent_id": 5
+                            },
+                            {
+                                "id": 79,
+                                "title": "净水器",
+                                "src": "http://www.test.com/img/m1-s2-2.png",
+                                "parent_id": 5
+                            },
+                            {
+                                "id": 50,
+                                "title": "其他",
+                                "src": "http://www.test.com/img/m1-s2-3.png",
+                                "parent_id": 5
+                            },
+                            {
+                                "id": 78,
+                                "title": "电磁炉",
+                                "src": "http://www.test.com/img/m1-s2-1.png",
+                                "parent_id": 5
+                            },
+                            {
+                                "id": 79,
+                                "title": "净水器",
+                                "src": "http://www.test.com/img/m1-s2-2.png",
+                                "parent_id": 5
+                            },
+                            {
+                                "id": 50,
+                                "title": "其他",
+                                "src": "http://www.test.com/img/m1-s2-3.png",
+                                "parent_id": 5
+                            },
+                            {
+                                "id": 78,
+                                "title": "电磁炉",
+                                "src": "http://www.test.com/img/m1-s2-1.png",
+                                "parent_id": 5
+                            },
+                            {
+                                "id": 79,
+                                "title": "净水器",
+                                "src": "http://www.test.com/img/m1-s2-2.png",
+                                "parent_id": 5
+                            },
+                            {
+                                "id": 50,
+                                "title": "其他",
+                                "src": "http://www.test.com/img/m1-s2-3.png",
+                                "parent_id": 5
+                            },
+                            {
+                                "id": 78,
+                                "title": "电磁炉",
+                                "src": "http://www.test.com/img/m1-s2-1.png",
+                                "parent_id": 5
+                            },
+                            {
+                                "id": 79,
+                                "title": "净水器",
+                                "src": "http://www.test.com/img/m1-s2-2.png",
+                                "parent_id": 5
+                            },
+                            {
+                                "id": 50,
+                                "title": "其他",
+                                "src": "http://www.test.com/img/m1-s2-3.png",
+                                "parent_id": 5
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id":2, 
+                "title": "家具",
+                "src": "http://www.test.com/img/m2.png",
+                "parent_id": 0,
+                "cates": [
+                    {
+                        "id": 4,
+                        "title": "大型家电1",
+                        "src": "",
+                        "parent_id": 1,
+                        "cates": [
+                            {
+                                "id": 45,
+                                "title": "电视1",
+                                "src": "http://www.test.com/img/m2-s1-1.png",
+                                "parent_id": 4
+                            },
+                            {
+                                "id": 46,
+                                "title": "冰箱1",
+                                "src": "http://www.test.com/img/m2-s1-2.png",
+                                "parent_id": 4
+                            },
+                            {
+                                "id": 47,
+                                "title": "空调1",
+                                "src": "http://www.test.com/img/m2-s1-3.png",
+                                "parent_id": 4
+                            },
+                            {
+                                "id": 48,
+                                "title": "洗衣机1",
+                                "src": "http://www.test.com/img/m2-s1-4.png",
+                                "parent_id": 4
+                            },
+                            {
+                                "id": 49,
+                                "title": "燃气灶1",
+                                "src": "http://www.test.com/img/m2-s1-5.png",
+                                "parent_id": 4
+                            }
+                        ]
+                    },
+                    {
+                        "id": 5,
+                        "title": "厨卫电器1",
+                        "src": "",
+                        "parent_id": 1,
+                        "cates": [
+                            {
+                                "id": 78,
+                                "title": "电磁炉1",
+                                "src": "http://www.test.com/img/m2-s2-1.png",
+                                "parent_id": 5
+                            },
+                            {
+                                "id": 79,
+                                "title": "净水器1",
+                                "src": "http://www.test.com/img/m2-s2-2.png",
+                                "parent_id": 5
+                            },
+                            {
+                                "id": 50,
+                                "title": "其他1",
+                                "src": "http://www.test.com/img/m2-s2-3.png",
+                                "parent_id": 5
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "posts": {
+        "status": true,
+        "data": [
+            {
+                "id": 1,
+                "title": "经典的歌曲永远不会过时，经典的演绎永远难以忘怀",
+                "source": "今日头条",
+                "publish": "2016-11-18",
+                "images": ["http://www.test.com/img/p1.jpg"]
+            },
+            {
+                "id": 2,
+                "title": "微信又增加3大逆天功能，忍不住提醒你们记得更新",
+                "source": "腾讯网",
+                "publish": "2016-11-16",
+                "images": ["http://www.test.com/img/p2.jpg"]
+            },
+            {
+                "id": 3,
+                "title": "历史上死的比岳飞还憋屈的十位战神级人物，第十位真的太惨了",
+                "source": "搜狐网",
+                "publish": "2016-11-16",
+                "images": ["http://www.test.com/img/p4.jpg", "http://www.test.com/img/p5.jpg", "http://www.test.com/img/p6.jpg"]
+            },
+            {
+                "id": 4,
+                "title": "中国男篮为什么落后于世界水平，看球员的身体就知道了",
+                "source": "新浪网",
+                "publish": "2016-11-16",
+                "images": []
+            },
+            {
+                "id": 5,
+                "title": "氢弹威力巨大为何多国放弃？唯独中国保存下来？",
+                "source": "百度网",
+                "publish": "2016-11-16",
+                "images": ["http://www.test.com/img/p2.jpg", "http://www.test.com/img/p3.jpg", "http://www.test.com/img/p6.jpg"]
+            },
+            {
+                "id": 6,
+                "title": "爆笑动物：猴子和狗打架，猴子输了不服气欲拿棍棒再战",
+                "source": "腾讯网",
+                "publish": "2016-11-16",
+                "images": []
+            },
+            {
+                "id": 7,
+                "title": "人到40血管易堵，吃什么可以清血管？",
+                "source": "今日头条",
+                "publish": "2016-11-18",
+                "images": ["http://www.test.com/img/p3.jpg"]
+            },
+            {
+                "id": 8,
+                "title": "医生教你三个动作，快速清肠排毒，人人可学！",
+                "source": "腾讯网",
+                "publish": "2016-11-16",
+                "images": ["http://www.test.com/img/p4.jpg"]
+            },
+            {
+                "id": 9,
+                "title": "快递员的真实工资有多少？",
+                "source": "搜狐网",
+                "publish": "2016-11-16",
+                "images": ["http://www.test.com/img/p1.jpg", "http://www.test.com/img/p2.jpg", "http://www.test.com/img/p4.jpg"]
+            },
+            {
+                "id": 10,
+                "title": "诸葛亮一生最信任的人，也是对他最忠诚的人，武力值不输关羽张飞",
+                "source": "新浪网",
+                "publish": "2016-11-16",
+                "images": []
+            },
+            {
+                "id": 11,
+                "title": "我国成功完成世界上又一超级工程，它让缅甸到中国不超过一分钟",
+                "source": "百度网",
+                "publish": "2016-11-16",
+                "images": ["http://www.test.com/img/p3.jpg"]
+            },
+            {
+                "id": 12,
+                "title": "自己创业开公司，真的很难吗",
+                "source": "腾讯网",
+                "publish": "2016-11-16",
+                "images": ["http://www.test.com/img/p5.jpg"]
+            },
+            {
+                "id": 13,
+                "title": "三峡大坝的水为什么射向空中？中国人的智慧美国人也只能干看着",
+                "source": "今日头条",
+                "publish": "2016-11-18",
+                "images": ["http://www.test.com/img/p1.jpg"]
+            },
+            {
+                "id": 14,
+                "title": "马云：我对钱没兴趣，天猫和淘宝未来30年可能会被死掉",
+                "source": "腾讯网",
+                "publish": "2016-11-16",
+                "images": ["http://www.test.com/img/p6.jpg"]
+            },
+            {
+                "id": 15,
+                "title": "盘点世界上最“离奇”的几个越狱事件",
+                "source": "搜狐网",
+                "publish": "2016-11-16",
+                "images": ["http://www.test.com/img/p4.jpg", "http://www.test.com/img/p2.jpg", "http://www.test.com/img/p1.jpg"]
+            },
+            {
+                "id": 16,
+                "title": "不孝有三，无后为大，另外两个是啥？",
+                "source": "新浪网",
+                "publish": "2016-11-16",
+                "images": ["http://www.test.com/img/p1.jpg"]
+            },
+            {
+                "id": 17,
+                "title": "十种人最容易猝死，教你了解猝死前的6个征兆",
+                "source": "百度网",
+                "publish": "2016-11-16",
+                "images": ["http://www.test.com/img/p3.jpg"]
+            },
+            {
+                "id": 18,
+                "title": "为什么很多成功男人有情人？",
+                "source": "腾讯网",
+                "publish": "2016-11-16",
+                "images": ["http://www.test.com/img/p2.jpg"]
+            }
+        ]
+    }
+}

@@ -1,0 +1,110 @@
+@import './normalize.css';
+@import './vars.scss';
+
+* { margin: 0; padding: 0;}
+html{ font-size: 62.5%;}
+body{ font-size: 14px; font-size: 1.4rem; font-family: 'Microsoft Yahei'; background-color: $mainBgColor;}
+a, a:link, a:active{
+	display: block;
+	text-decoration: none;
+	color: $mainFontColor;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin flexRow($align: 'center') {
+	display: flex; flex-direction: row; align-items: center; justify-content: $align;
+}
+
+
+@mixin flexColumn($align: 'center') {
+	display: flex; flex-direction: column; align-items: center; justify-content: $align;
+}
+
+.flexRowStart{
+	@include flexRow('flex-start');
+}
+.flexRowCenter{
+	@include flexRow();
+}
+.flexRowEnd{
+	@include flexRow('flex-end');
+}
+.flexRowBetween{
+	@include flexRow('space-between');
+}
+.flexColumnStart{
+	@include flexColumn('flex-start');
+}
+.flexColumnCenter{
+	@include flexColumn();
+}
+.flexColumnEnd{
+	@include flexColumn('flex-end');
+}
+.flexColumnBetween{
+	@include flexColumn('space-between');
+}
+
+.center{text-align: center;}
+
+.flexItem{
+	display: block;
+	flex: 1;
+}
+
+.page{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  header{
+    width: 100%;
+    h1{
+      margin: 0;
+      padding: 0;
+      height: 4rem;
+      line-height: 4rem;
+      text-align: center;
+      background-color: #dd3333;
+      color: #ffffff;
+      font-size: 1.6rem;
+    }
+    nav{
+      a{
+        width: 100%;
+        height: 3rem;
+        line-height: 3rem;
+        border-bottom: 2px solid #dddddd;
+        padding: 0 1rem;
+        background-color: #ffffff;
+        box-sizing: border-box;
+      }
+      a:not(:last-child){
+        border-right: 1px solid #dddddd;
+      }
+    }
+  }
+  .mainContent{
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+  }
+}
+
+
+.slide-fade-enter-active {
+  transition: all .5s ease;
+}
+.slide-fade-leave-active {
+  transition: all .3s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-fade-enter, .slide-fade-leave-to{
+  transform: translateX(10px);
+  opacity: 0;
+}
